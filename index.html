@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="tittle">
+            <h1 id="home">Gemastik Informatics Training</h1>
+            <p>Gemastics Informatics Training adalah kegiatan yang diselenggarakan oleh divisi Keilmuan dan Teknologi HMIF Unsoed. kegiatan ini bertujuan untuk menyiapkan para delegasi untuk lebih siap berkompetisi di ajang Gemastik 2025.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#" id="dropdown-toggle">Bidang<span id="dropdown-icon"> ></span></a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                        <li><a href="#programming">Programming</a></li>
+                        <li><a href="#cyber">Cyber Security</a></li>
+                        <li><a href="#ux">UX Design</a></li>
+                        <li><a href="#software">Software Development</a></li>
+                        <li><a href="#game">Games Development</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Selamat datang di Gemastik Informatics Training 2025!</h2>
+            <p>
+                Bersiaplah untuk mengasah keterampilan dan menghadapi tantangan di dunia teknologi! Di sini, kamu akan belajar, berkembang, dan berkompetisi di berbagai bidang. Bersama kami, raih potensi terbaikmu dan buktikan bahwa kamu siap menghadapi Gemastik 2025!
+            </p>
+            <p>Waktu Mundur:</p>
+            <div id="countdown"></div>
+        </section>
+
+        <div class="primary-content">
+            <div id="content">
+                <h2>Bidang yang dibina</h2>
+                <article class="card fade-in" id="programming">
+                    <h2>Programming</h2>
+                    <img src="assests/img/Pemograman.jpg" alt="Programming" width="500px" class="featured-image"/>
+                    <p>
+                        Bidang ini menguji keterampilan peserta untuk menyelesaikan masalah algoritmik dalam tim menggunakan bahasa seperti C, C++, Python, atau Java. Kompetisi berbasis ICPC ini mencakup struktur data, algoritma, matematika, dan teori graf. Strategi utama untuk menang adalah latihan soal, penguasaan algoritma, kerja sama tim, dan manajemen waktu. Kompetisi ini bermanfaat untuk meningkatkan problem-solving, memperkuat pemahaman pemrograman, serta membuka peluang karier di industri teknologi.
+                    </p>
+                </article>
+
+                <article class="card fade-in" id="cyber">
+                    <h2>Cyber Security</h2>
+                    <img src="assests/img/cyber-security.jpg" alt="Cyber Security" width="500px" class="featured-image"/>
+                    <p>
+                        Dalam bidang Cyber Security, peserta akan diuji dalam melakukan penetration testing, cryptography, digital forensics, dan network security melalui kompetisi CTF (Capture The Flag). Tim diminta untuk menyelesaikan tantangan seperti web security, reverse engineering, dan exploit development. Strategi utama adalah latihan di platform CTF, menguasai keamanan jaringan, serta menggunakan tools seperti Wireshark dan Burp Suite. Kompetisi ini bermanfaat untuk meningkatkan keterampilan cybersecurity dan membuka peluang karier sebagai Pentester atau Security Engineer.
+                    </p>
+                </article>
+
+                <article class="card fade-in" id="ux">
+                    <h2>UX Design</h2>
+                    <img src="assests/img/ux-design.jpg" alt="UX Design" width="500px" class="featured-image"/>
+                    <p>
+                        Bidang UX Design di GEMASTIK menantang peserta untuk merancang pengalaman pengguna (User Experience) yang intuitif, fungsional, dan menarik. Peserta diuji untuk menganalisis kebutuhan pengguna, membuat wireframe, prototipe, dan menguji desain berbasis prinsip usability, accessibility, dan user-centered design.
+                    </p>
+                </article>
+
+                <article class="card fade-in" id="software">
+                    <h2>Software Development</h2>
+                    <img src="assests/img/software-development.jpg" alt="Permainan" width="500px" class="featured-image"/>
+                    <p>
+                        Bidang Software Development di GEMASTIK menantang peserta untuk membangun perangkat lunak inovatif yang efisien dan user-friendly. Peserta dituntut untuk mengembangkan solusi digital dengan menerapkan pengkodean, arsitektur perangkat lunak, dan deployment menggunakan teknologi modern seperti React, Flutter, atau Node.js
+                    </p>
+                </article>
+
+                <article class="card fade-in" id="game">
+                    <h2>Game Development</h2>
+                    <img src="assests/img/games-development.jpeg" alt="Permainan" width="500px" class="featured-image"/>
+                    <p>
+                        Bidang Games Development di GEMASTIK menguji kemampuan peserta dalam merancang dan mengembangkan game yang menarik, interaktif, dan berkualitas. Dalam melakukan tugasnya, peserta diminta untuk membangun game menggunakan engine seperti Unity atau Unreal Engine, dengan fokus pada gameplay, desain grafis, dan pengalaman pengguna.
+                    </p>
+                </article>
+            </div>
+
+            <aside>
+                <h2 class="aside-title">Profile</h2>
+                <article class="card fade-in">
+                    <header class="profile">
+                        <h3>Keilmuan dan Teknologi</h3>
+                        <img src="assests/img/hmif_logo.png"/>
+                    </header>
+
+                    <section>
+                    <h3>Informasi Lainnya</h3>
+                        <table class="table-information">
+                            <tr>
+                                <th>Ketua Pelaksana</th>
+                                <td>Naufal Satrio Putra</td>
+                            </tr>
+                            <tr>
+                                <th>Tanggal Pelaksanaan</th>
+                                <td>3 Mei 2025 s.d. 17 Mei 2025</td>
+                            </tr>
+                            <tr>
+                                <th>Tempat Dilaksanakan</th>
+                                <td>Dalam Jaringan</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </div>
+
+        <section id="about" class="fade-in">
+            <header>
+                <h2>Tentang Gemastik Informatics Training 2025</h2>
+            </header>
+            <article>
+                <p>
+                    <strong>Gemastik Informatics Training</strong> adalah sebuah program pelatihan yang diselenggarakan oleh divisi Keilmuan dan Teknologi HMIF Unsoed dengan tujuan untuk mempersiapkan para delegasi agar siap berkompetisi di ajang <strong>Gemastik 2025</strong>. Program ini mencakup berbagai bidang yang dirancang untuk meningkatkan keterampilan teknis dan pengetahuan peserta dalam bidang teknologi informasi.
+                </p>
+                <p>
+                    Melalui pelatihan intensif ini, para peserta tidak hanya akan mendapatkan pembekalan berupa teori, tetapi juga pengalaman praktis yang sangat berguna dalam menghadapi kompetisi di tingkat nasional. Selain itu, pelatihan ini juga bertujuan untuk menciptakan kolaborasi dan semangat tim yang tinggi, yang menjadi kunci utama dalam mencapai keberhasilan di Gemastik.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="text-footer">
+            <p>Gemastics Informatics Training 2025.<br> Universitas Jenderal Soedirman.</p>
+        </div>
+    </footer>
+
+    <script src="assests/scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+body{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+}
+
+header .tittle{
+    background-color: #284be3;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1{
+    color: #FBE4D6;
+}
+
+header p{
+    color: #FBE4D6;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 150px;
+    text-align: center;
+}
+
+header nav{
+    background-color: #1e39b1;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.dropdown-menu {
+    background: white;
+    border: #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    width: 170px;
+    z-index: 100;
+}
+
+.dropdown-menu li {
+    padding: 0;
+}
+
+.dropdown-menu li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background: #eee;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+header li{
+    list-style-type: none;
+}
+
+header li a {
+    color: #FBE4D6;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header li a:hover{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+main .intro{
+    text-align: center;
+    padding: 0 80px;
+}
+
+#countdown {
+    color: #f71e01;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main .primary-content{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.featured-image{
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 3.5;
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #161179;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+aside img{
+    flex:1.5;
+}
+
+aside .aside-title{
+    padding:0;
+    margin:20px 0 33px 0;
+}
+
+aside .profile{
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.profile img{
+    width: 200px;
+}
+
+aside table{
+    text-align: left;
+}
+
+#about{
+    text-align: center;
+    padding: 0 50px;
+}
+
+footer{
+    background-color: #284be3;
+    text-align: center;
+    padding: 1px;
+}
+
+footer .text-footer{
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    header ul {
+      flex-direction: column;
+      gap: 5px;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1{
+        margin: 0;
+        padding: 10px;
+    }
+
+    header p{
+       display: none;
+    }
+
+    main .primary-content{
+        flex-direction: column;
+    }
+
+    h3{
+        text-align: center;
+    }
+    
+    .table-information{
+       margin: auto;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
