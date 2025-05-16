@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(element);
     });
 
-    var countDownDate = new Date("May 3, 2025 00:00:00").getTime();
+    var countDownDate = new Date("May 30, 2025 00:00:00").getTime();
 
     var x = setInterval(function() {
 
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("countdown").innerHTML = days + "d " + ": " +hours + "h " + ": " + minutes  + "m " + ": " + seconds + "s ";
 
         if (distance < 0) {
             clearInterval(x);
