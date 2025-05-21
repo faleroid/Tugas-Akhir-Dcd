@@ -96,6 +96,13 @@ header li a:hover{
     transition: 0.3s;
 }
 
+header li a.active{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    background-color: rgb(196, 196, 196);
+}
+
 main .intro{
     background-image: url(/assests/img/background.png);
     background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */

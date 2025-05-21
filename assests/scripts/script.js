@@ -35,3 +35,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 1000);
 });
 
+const sections = document.querySelectorAll("section, article[id]");
+const navLinks = document.querySelectorAll(".navlink");
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href").substring(1) === entry.target.id) {
+          link.classList.add("active");
+        }
+      });
+    }
+  });
+}, {
+  threshold: 0.6 // hanya trigger jika 60% section masuk layar
+});
+
+sections.forEach(section => observer.observe(section));
