@@ -102,3 +102,10 @@ header li a:hover{
     border-bottom: solid 3px purple;
     transition: 0.3s;
 }
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
