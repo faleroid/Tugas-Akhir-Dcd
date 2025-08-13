@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown").innerHTML = "Waktu telah habis!";
+            document.getElementById("countdown").innerHTML = "Waktu dimulai, selamat berjuang!";
         }
     }, 1000);
 });
