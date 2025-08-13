@@ -1,346 +1,319 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assests/styles/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assests/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Gemastik Infromatics Training 2025</title>
-   <script src="assests/scripts/navbar.js"></script>
-</head>
-<body>
+    <script type="module" src="src/scripts/main.js"></script>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li class="dropdown">
-                    <a href="#" id="dropdown-toggle">Bidang<span id="dropdown-icon"> </span></a>
-                    <ul class="dropdown-menu" id="dropdown-menu">
-                        <li><a href="#cyber">Cyber Security</a></li>
-                        <li><a href="#datmin">Data Mining</a></li>
-                        <li><a href="#game">Games Development</a></li>
-                        <li><a href="#programming">Programming</a></li>
-                        <li><a href="#iot">Smart Device, Embedded System, & IoT</a></li>
-                        <li><a href="#software">Software Development</a></li>
-                        <li><a href="#ux">UX Design</a></li>
-                    </ul>
-                </li>
-                <li><a href="/#statistic">Statistik</a></li>
-                <li><a href="/jadwal.html">Jadwal</a></li>
-                <li><a href="/galeri.html">Galeri</a></li>
-                <li><a href="/#about">Tentang</a></li>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li class="dropdown">
+            <a href="#" id="dropdown-toggle"
+              >Bidang<span id="dropdown-icon"> </span
+            ></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><a href="#cyber">Cyber Security</a></li>
+              <li><a href="#datmin">Data Mining</a></li>
+              <li><a href="#game">Games Development</a></li>
+              <li><a href="#programming">Programming</a></li>
+              <li><a href="#iot">Smart Device, Embedded System, & IoT</a></li>
+              <li><a href="#software">Software Development</a></li>
+              <li><a href="#ux">UX Design</a></li>
             </ul>
-        </nav>
+          </li>
+          <li><a href="/#statistic">Statistik</a></li>
+          <li><a href="/schedule.html">Jadwal</a></li>
+          <li><a href="/galery.html">Galeri</a></li>
+          <li><a href="/#about">Tentang</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="intro" id="home">
-            <div class="title">
-                <img loading="lazy" src="assests/img/logo.png" width="270px">
-                <h1>Gemastik Informatics Training 2025!</h1>
-                <p>
-                    Gemastik Informatics Training akan <b>segera dimulai!</b> Persiapkan dirimu sebaik mungkin.
-                </p>
-                <div id="countdown"></div>
-            </div>
-            <div class="title-img">
-                <img loading="lazy" src="assests/img/side-logo.png" width="720px" max-width="100%">
-            </div>
-        </section>
+      <section class="intro" id="home">
+        <div class="title">
+          <img loading="lazy" src="assests/img/logo.png" width="270px" />
+          <h1>Gemastik Informatics Training 2025!</h1>
+          <p>
+            Gemastik Informatics Training akan <b>segera dimulai!</b> Persiapkan
+            dirimu sebaik mungkin.
+          </p>
+          <div id="countdown"></div>
+        </div>
+        <div class="title-img">
+          <img
+            loading="lazy"
+            src="assests/img/side-logo.png"
+            width="720px"
+            max-width="100%"
+          />
+        </div>
+      </section>
 
-        <div class="primary-content">
-            <div id="content">
-                <h2 class="content-title">Bidang yang dibina</h2>
-                <article class="card fade-in" id="programming">
-                    <h2>Programming</h2>
-                    <img loading="lazy" src="assests/img/Pemograman.jpg" alt="Programming" width="500px" class="featured-image"/>
-                    <p>
-                        Cabang lomba Pemrograman dalam GEMASTIK menguji kemampuan mahasiswa dalam memecahkan masalah komputasional kompleks menggunakan algoritma, struktur data, dan logika pemrograman yang efisien, dimana peserta ditantang untuk menghasilkan solusi kode yang tepat dan optimal dalam batasan waktu dan sumber daya yang ditentukan.
-                    </p>
-                </article>
+      <div class="primary-content">
+        <div id="content">
+          <h2 class="content-title">Bidang yang dibina</h2>
+        </div>
+        <div class="aside-wrapper">
+          <aside>
+            <h2 class="aside-title">Profile</h2>
+            <article class="card fade-in">
+              <header class="profile">
+                <h3>Keilmuan dan Teknologi</h3>
+                <img loading="lazy" src="assests/img/hmif_logo.png" />
+              </header>
 
+              <section>
+                <h3>Lainnya</h3>
+                <table class="table-information">
+                  <tr>
+                    <th>Ketua Pelaksana</th>
+                    <td>Naufal Satrio Putra</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Pelaksanaan</th>
+                    <td>TBA</td>
+                  </tr>
+                  <tr>
+                    <th>Tempat Dilaksanakan</th>
+                    <td>Dalam Jaringan</td>
+                  </tr>
+                </table>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </div>
 
-                <article class="card fade-in" id="cyber">
-                    <h2>Cyber Security</h2>
-                    <img  loading="lazy" src="assests/img/cyber-security.jpg" alt="Cyber Security" width="500px" class="featured-image"/>
-                    <p>
-                       Cabang lomba Keamanan Siber dalam GEMASTIK menantang peserta untuk mengidentifikasi kerentanan sistem, menganalisis ancaman keamanan, dan mengembangkan strategi pertahanan digital, dimana kemampuan dalam forensik digital, penetration testing, dan pemahaman tentang prinsip-prinsip keamanan informasi diuji melalui skenario-skenario serangan siber yang realistis.
-                    </p>
-                </article>
+      <section class="statistic-container">
+        <h2 id="statistic">Statistik Tim</h2>
 
-                <article class="card fade-in" id="ux">
-                    <h2>UX Design</h2>
-                    <img loading="lazy" src="assests/img/ux-design.jpg" alt="UX Design" width="500px" class="featured-image"/>
-                    <p>
-                        Cabang lomba Desain Pengalaman Pengguna (UX Design) dalam GEMASTIK menantang mahasiswa untuk merancang solusi digital yang berpusat pada pengguna, dimana peserta harus mendemonstrasikan kemampuan dalam riset pengguna, pembuatan persona, perancangan alur interaksi, wireframing, prototyping, dan pengujian kebergunaan untuk menghasilkan antarmuka yang intuitif, aksesibel, dan memberikan pengalaman yang menyenangkan bagi pengguna akhir.
-                    </p>
-                </article>
+        <div class="statistic-total">
+          <div class="statistic-all">
+            <h3>27</h3>
+            <p>Total Tim</p>
+          </div>
 
-                <article class="card fade-in" id="datmin">
-                    <h2>Data Mining</h2>
-                    <img loading="lazy" src="assests/img/software-development.jpg" alt="Permainan" width="500px" class="featured-image"/>
-                    <p>
-                        Cabang lomba Data Mining dalam GEMASTIK mengharuskan peserta untuk mengekstrak, menganalisis, dan menemukan pola bermakna dari kumpulan data besar, dengan menerapkan teknik-teknik statistik, machine learning, dan visualisasi untuk menghasilkan wawasan bernilai dan prediksi yang akurat sebagai dasar pengambilan keputusan.
-                    </p>
-                </article>
+          <div class="statistic-all">
+            <h3>67</h3>
+            <p>Total Perorangan</p>
+          </div>
 
-                <article class="card fade-in" id="game">
-                    <h2>Game Development</h2>
-                    <img loading="lazy" src="assests/img/games-development.jpeg" alt="Permainan" width="500px" class="featured-image"/>
-                    <p>
-                     Cabang lomba Pengembangan Permainan dalam GEMASTIK mendorong kreativitas mahasiswa dalam merancang dan mengembangkan permainan digital yang memiliki aspek gameplay menarik, desain visual yang mengesankan, narasi yang memikat, serta mekanisme permainan yang seimbang dengan mengimplementasikan teknologi dan platform pengembangan game modern.
-                    </p>
-                </article>
-
-                <article class="card fade-in" id="iot">
-                    <h2>Smart Device, Embedded System & IoT</h2>
-                    <img loading="lazy" src="assests/img/Pemograman.jpg" alt="Permainan" width="500px" class="featured-image"/>
-                    <p>
-                        Cabang lomba Smart Device, Embedded System, & IoT merupakan kompetisi yang menantang mahasiswa untuk merancang dan mengimplementasikan solusi berbasis sistem embedded, smart device, dan teknologi Internet of Things (IoT) guna mengatasi permasalahan nyata, dengan fokus pada integrasi komponen hardware (mikrokontroler, sensor, dan aktuator) serta teknologi jaringan untuk menghasilkan inovasi yang dapat mengumpulkan, memproses, dan memanfaatkan data secara efisien, berkelanjutan, dan memiliki dampak positif pada berbagai sektor kehidupan.
-                    </p>
-                </article>
-
-                <article class="card fade-in" id="software">
-                    <h2>Software Development</h2>
-                    <img loading="lazy" src="assests/img/software-development.jpg" alt="Permainan" width="500px" class="featured-image"/>
-                    <p>
-                        Cabang lomba Pengembangan Aplikasi atau Software Development dalam GEMASTIK mengajak mahasiswa untuk mengasah kemampuan dalam merancang, mengembangkan, dan mengimplementasikan solusi perangkat lunak yang inovatif dengan menerapkan metodologi pengembangan software profesional, dimana peserta diharapkan mampu menciptakan aplikasi yang memiliki nilai guna tinggi, antarmuka yang intuitif, performa yang optimal, serta dapat menyelesaikan permasalahan konkret di berbagai bidang seperti pendidikan, kesehatan, bisnis, atau layanan publik.
-                    </p>
-                </article>
-            </div>
-            <div class="aside-wrapper">           
-            <aside>
-                <h2 class="aside-title">Profile</h2>
-                <article class="card fade-in">
-                    <header class="profile">
-                        <h3>Keilmuan dan Teknologi</h3>
-                        <img loading="lazy" src="assests/img/hmif_logo.png"/>
-                    </header>
-
-                    <section>
-                    <h3>Lainnya</h3>
-                        <table class="table-information">
-                            <tr>
-                                <th>Ketua Pelaksana</th>
-                                <td>Naufal Satrio Putra</td>
-                            </tr>
-                            <tr>
-                                <th>Tanggal Pelaksanaan</th>
-                                <td>TBA</td>
-                            </tr>
-                            <tr>
-                                <th>Tempat Dilaksanakan</th>
-                                <td>Dalam Jaringan</td>
-                            </tr>
-                        </table>
-                    </section>
-                </article>
-            </aside>
-             </div>
+          <div class="statistic-all">
+            <h3>7</h3>
+            <p>Total Bidang</p>
+          </div>
         </div>
 
-        <section class="statistic-container">
-            <h2 id="statistic">Statistik Tim</h2>
-
-            <div class="statistic-total">
-
-                <div class="statistic-all">
-                    <h3>27</h3>
-                    <p>Total Tim</p>
-                </div>
-
-                <div class="statistic-all">
-                    <h3>67</h3>
-                    <p>Total Perorangan</p>
-                </div>
-
-                <div class="statistic-all">
-                    <h3>7</h3>
-                    <p>Total Bidang</p>
-                </div>
-
+        <div class="statistic-by-bidang">
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>UX Design</h3>
             </div>
+            <i class="fa-regular fa-gem" style="color: rgb(93, 108, 193)"></i>
+            <p>Jumlah Tim: 4</p>
+            <p>Peorangan: 12</p>
+          </div>
 
-            <div class="statistic-by-bidang">
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>UX Design</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(93, 108, 193)"></i>
-                    <p>Jumlah Tim: 4</p>
-                    <p>Peorangan: 12</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Programming</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(227, 185, 33)"></i>
-                    <p>Jumlah Tim: 3</p>
-                    <p>Peorangan: 9</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Cyber Security</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(217, 33, 227)"></i>
-                    <p>Jumlah Tim: 7</p>
-                    <p>Peorangan: 21</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Data Mining</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(140, 210, 225)"></i>
-                    <p>Jumlah Tim: 4</p>
-                    <p>Peorangan: 12</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Smart Device, Embedded System & IoT</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(160, 173, 46)"></i>
-                    <p>Jumlah Tim: 2</p>
-                    <p>Peorangan: 6</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Game Developer</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(106, 26, 210)"></i>
-                    <p>Jumlah Tim: 3</p>
-                    <p>Peorangan: 9</p>
-                </div>
-
-                <div class="statistic">
-                    <div class="statistic-header">
-                        <h3>Software Developer</h3>
-                    </div>
-                    <i class="fa-regular fa-gem" style="color:rgb(140, 227, 33)"></i>
-                    <p>Jumlah Tim: 5</p>
-                    <p>Peorangan: 15</p>
-                </div>
-
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Programming</h3>
             </div>
-        </section>
+            <i class="fa-regular fa-gem" style="color: rgb(227, 185, 33)"></i>
+            <p>Jumlah Tim: 3</p>
+            <p>Peorangan: 9</p>
+          </div>
 
-        <section id="information" class="information fade-in">
-            <h2>Informasi</h2>
-            <div class="berita-container">
-
-                <div class="berita">
-                    <div class="header-information">
-                        <p>1 April 2025</p>
-                        <p>Admin</p>
-                    </div>
-                    <h3>Formulir Pendaftaran Peserta Gemastik Informatics Training</h3>
-                    <a href="https://bit.ly/GemastikInformaticsTraining2025">Selengkapnya</a>
-                </div>
-            
-                <div class="berita">
-                    <div class="header-information">
-                        <p>2 Mei 2025</p>
-                        <p>Admin</p>
-                    </div>
-                    <h3>Gemastik kembali hadir dalam program kemahasiswaan 2025</h3>
-                    <a href="https://www.instagram.com/reel/DJIvbCqh9IY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Selengkapnya</a>
-                </div>
-
-                <div class="berita">
-                    <div class="header-information">
-                        <p>16 Mei 2025</p>
-                        <p>Admin</p>
-                    </div>
-                    <h3>Unsoed mengirimkan 17 delegasi pada Gemastik tahun 2024</h3>
-                    <a href="https://gemastik.kemdikbud.go.id/statistik">Selengkapnya</a>
-                </div>
-        
-        </section>
-
-        <section class="saran">
-            <h2>Saran dan Kritik</h2>
-            <p>Coming Soon...</p>
-        </section>
-
-        <section id="about" class="about fade-in">
-            <div>
-                <h2>Tentang Gemastik Informatics Training 2025</h2>
-            <div>
-            <article>
-                <p>
-                    <strong>Gemastik Informatics Training</strong> adalah sebuah program pelatihan yang diselenggarakan oleh divisi Keilmuan dan Teknologi HMIF Unsoed dengan tujuan untuk mempersiapkan para delegasi agar siap berkompetisi di ajang <strong>Gemastik 2025</strong>. Program ini mencakup berbagai bidang yang dirancang untuk meningkatkan keterampilan teknis dan pengetahuan peserta dalam bidang teknologi informasi.
-                </p>
-            </article>
-        </section>
-
-        <section class="contact-container">
-            <div class="contact">
-
-                <div class="social-media">
-                    <h4 class="contact-title">Social Media</h4>
-                    <p class="contact-phar">Beberapa Media Sosial Kami</p>
-                    <div class="icons">
-                        <a href="https://www.instagram.com/@hmifunsoed">
-                            <i class="fa-brands fa-instagram icon-contact" style="color: #FFD43B;"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/hmif-unsoed-himpunan-mahasiswa-informatika-unsoed/" >
-                            <i class="fa-brands fa-linkedin-in icon-contact" style="color: #FFD43B;"></i>
-                        </a>
-                        <a href="https://www.tiktok.com/@hmifunsoed">
-                            <i class="fa-brands fa-tiktok icon-contact" style="color: #FFD43B;"></i>
-                        </a>
-                        <a href="https://www.youtube.com/@hmifunsoed">
-                            <i class="fa-brands fa-youtube icon-contact" style="color: #FFD43B;"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="narahubung">
-                    <h4>Narahubung</h4>
-                    <div class="narahubung-title">
-                        <table>
-                            <tr>
-                                <th>Email </th>
-                                <td>: naufalsatrioputra@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <th>Whastapp </th>
-                                <td>: 085797701080</td>
-                            </tr>
-                            <tr>
-                                <th>LinkedIn </th>
-                                <td>: @nflssz</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                </div>
-
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Cyber Security</h3>
             </div>
-        </section>
+            <i class="fa-regular fa-gem" style="color: rgb(217, 33, 227)"></i>
+            <p>Jumlah Tim: 7</p>
+            <p>Peorangan: 21</p>
+          </div>
 
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Data Mining</h3>
+            </div>
+            <i class="fa-regular fa-gem" style="color: rgb(140, 210, 225)"></i>
+            <p>Jumlah Tim: 4</p>
+            <p>Peorangan: 12</p>
+          </div>
+
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Smart Device, Embedded System & IoT</h3>
+            </div>
+            <i class="fa-regular fa-gem" style="color: rgb(160, 173, 46)"></i>
+            <p>Jumlah Tim: 2</p>
+            <p>Peorangan: 6</p>
+          </div>
+
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Game Developer</h3>
+            </div>
+            <i class="fa-regular fa-gem" style="color: rgb(106, 26, 210)"></i>
+            <p>Jumlah Tim: 3</p>
+            <p>Peorangan: 9</p>
+          </div>
+
+          <div class="statistic">
+            <div class="statistic-header">
+              <h3>Software Developer</h3>
+            </div>
+            <i class="fa-regular fa-gem" style="color: rgb(140, 227, 33)"></i>
+            <p>Jumlah Tim: 5</p>
+            <p>Peorangan: 15</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="information" class="information fade-in">
+        <h2>Informasi</h2>
+        <div class="berita-container">
+          <div class="berita">
+            <div class="header-information">
+              <p>1 April 2025</p>
+              <p>Admin</p>
+            </div>
+            <h3>Formulir Pendaftaran Peserta Gemastik Informatics Training</h3>
+            <a href="https://bit.ly/GemastikInformaticsTraining2025"
+              >Selengkapnya</a
+            >
+          </div>
+
+          <div class="berita">
+            <div class="header-information">
+              <p>2 Mei 2025</p>
+              <p>Admin</p>
+            </div>
+            <h3>Gemastik kembali hadir dalam program kemahasiswaan 2025</h3>
+            <a
+              href="https://www.instagram.com/reel/DJIvbCqh9IY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              >Selengkapnya</a
+            >
+          </div>
+
+          <div class="berita">
+            <div class="header-information">
+              <p>16 Mei 2025</p>
+              <p>Admin</p>
+            </div>
+            <h3>Unsoed mengirimkan 17 delegasi pada Gemastik tahun 2024</h3>
+            <a href="https://gemastik.kemdikbud.go.id/statistik"
+              >Selengkapnya</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="saran">
+        <h2>Saran dan Kritik</h2>
+        <p>Coming Soon...</p>
+      </section>
+
+      <section id="about" class="about fade-in">
+        <div>
+          <h2>Tentang Gemastik Informatics Training 2025</h2>
+        </div>
+        <article>
+          <p>
+            <strong>Gemastik Informatics Training</strong> adalah sebuah program
+            pelatihan yang diselenggarakan oleh divisi Keilmuan dan Teknologi
+            HMIF Unsoed dengan tujuan untuk mempersiapkan para delegasi agar
+            siap berkompetisi di ajang <strong>Gemastik 2025</strong>. Program
+            ini mencakup berbagai bidang yang dirancang untuk meningkatkan
+            keterampilan teknis dan pengetahuan peserta dalam bidang teknologi
+            informasi.
+          </p>
+        </article>
+      </section>
+
+      <section class="contact-container">
+        <div class="contact">
+          <div class="social-media">
+            <h4 class="contact-title">Social Media</h4>
+            <p class="contact-phar">Beberapa Media Sosial Kami</p>
+            <div class="icons">
+              <a href="https://www.instagram.com/@hmifunsoed">
+                <i
+                  class="fa-brands fa-instagram icon-contact"
+                  style="color: #ffd43b"
+                ></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/hmif-unsoed-himpunan-mahasiswa-informatika-unsoed/"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in icon-contact"
+                  style="color: #ffd43b"
+                ></i>
+              </a>
+              <a href="https://www.tiktok.com/@hmifunsoed">
+                <i
+                  class="fa-brands fa-tiktok icon-contact"
+                  style="color: #ffd43b"
+                ></i>
+              </a>
+              <a href="https://www.youtube.com/@hmifunsoed">
+                <i
+                  class="fa-brands fa-youtube icon-contact"
+                  style="color: #ffd43b"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="narahubung">
+            <h4>Narahubung</h4>
+            <div class="narahubung-title">
+              <table>
+                <tr>
+                  <th>Email</th>
+                  <td>: naufalsatrioputra@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>Whastapp</th>
+                  <td>: 085797701080</td>
+                </tr>
+                <tr>
+                  <th>LinkedIn</th>
+                  <td>: @nflssz</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="text-footer">
-            <p>
-                Himpunan Mahasiswa Informatika - Keilmuan dan Teknologi - Gemastik Informatics Training 
-                <br><br>
-                Universitas Jenderal Soedirman
-            </p>
-        </div>
+      <div class="text-footer">
+        <p>
+          Himpunan Mahasiswa Informatika - Keilmuan dan Teknologi - Gemastik
+          Informatics Training
+          <br /><br />
+          Universitas Jenderal Soedirman
+        </p>
+      </div>
     </footer>
-
-    <script src="assests/scripts/script.js"></script>
-</body>
+  </body>
 </html>
